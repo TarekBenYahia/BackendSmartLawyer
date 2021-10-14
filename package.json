@@ -1,0 +1,39 @@
+{
+  "name": "avocat-backend",
+  "version": "1.0.0",
+  "description": "la partie back du plateforme smart avocat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "hogan": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.11",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "process": "^0.11.10",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

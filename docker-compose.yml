@@ -1,0 +1,11 @@
+version: "3"
+services:
+  api:
+    image: tarekbenyahia/smartwebsflutter
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "3001:3006"
+
+volumes:
+  database:
